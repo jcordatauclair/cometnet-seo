@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <b>SEO optimizer</b>
+  <b>SEO optimizer (full stack development)</b>
   <br>
 </h1>
 
