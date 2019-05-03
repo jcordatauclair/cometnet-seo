@@ -1,4 +1,5 @@
 .ftpconfig
+__pycache__
 doc/
 report/en_report.tex
 report/fr_report.tex
