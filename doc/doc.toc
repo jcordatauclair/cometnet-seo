@@ -1,0 +1,5 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Pr\IeC {\'e}sentation g\IeC {\'e}n\IeC {\'e}rale}{2}
+\contentsline {section}{\numberline {2}Le web scraping}{3}
+\contentsline {section}{\numberline {3}L'apprentissage machine}{7}
+\contentsline {section}{\numberline {4}L'UX design}{12}

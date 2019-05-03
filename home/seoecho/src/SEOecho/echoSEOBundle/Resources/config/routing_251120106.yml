@@ -1,0 +1,15 @@
+echo_seo_homepage:
+    path:     /
+    defaults: { _controller: echoSEOBundle:Default:index }
+    
+seoecho_validFormMcUrl:
+    path:     /validFormMcUrl
+    defaults: { _controller: echoSEOBundle:Default:validFormMcUrl }
+    
+seoecho_parsingResultats:
+    path:     /parsingResultats/{dossierCrawl}
+    defaults: { _controller: echoSEOBundle:Parsing:index }
+    
+seoecho_apprentissageEcho:
+    path:     /apprentissageEcho
+    defaults: { _controller: echoSEOBundle:Echo:apprentissage }

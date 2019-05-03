@@ -1,0 +1,7 @@
+1 [  ] : PHP gets the parameters entered by the user
+2 [OK] : PHP creates a .txt file based on these parameters
+3 [OK] : PHP calls scrape.py in order to execute the crawling process
+4 [OK] : Python extracts the data and creates a .json file that contains it
+5 [OK] : PHP transforms the .json file into a PHP array
+6 [  ] : PHP processes the data from this array
+7 [  ] : PHP calls Echo in order to optimize each asset

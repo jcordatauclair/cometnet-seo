@@ -1,0 +1,1021 @@
+2018-06-25 09:24:15 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: searchEngine)
+2018-06-25 09:24:15 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 2.7.9 (default, Jun 29 2016, 13:08:31) - [GCC 4.9.2], pyOpenSSL 16.0.0 (OpenSSL 1.0.1t  3 May 2016), cryptography 1.7.1, Platform Linux-4.9.0-0.bpo.5-amd64-x86_64-with-debian-8.10
+2018-06-25 09:24:15 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'searchEngine.spiders', 'FEED_URI': '/home/seoecho/seo-echo.com/src/SEOecho/CrawlGooglePythonBundle/bin/searchEngine/output/unsortedOutput.jsonl', 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['searchEngine.spiders'], 'BOT_NAME': 'searchEngine', 'ROBOTSTXT_OBEY': True, 'COOKIES_ENABLED': False, 'FEED_EXPORT_ENCODING': 'utf-8'}
+2018-06-25 09:24:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-06-25 09:24:15 [easyprocess] DEBUG: param: "['Xvfb', '-help']" 
+2018-06-25 09:24:15 [easyprocess] DEBUG: command: ['Xvfb', '-help']
+2018-06-25 09:24:15 [easyprocess] DEBUG: joined command: Xvfb -help
+2018-06-25 09:24:15 [easyprocess] DEBUG: process was started (pid=32749)
+2018-06-25 09:24:15 [easyprocess] DEBUG: process has ended
+2018-06-25 09:24:15 [easyprocess] DEBUG: return code=0
+2018-06-25 09:24:15 [easyprocess] DEBUG: stdout=
+2018-06-25 09:24:15 [easyprocess] DEBUG: stderr=use: X [:<display>] [option]
+-a #                   default pointer acceleration (factor)
+-ac                    disable access control restrictions
+-audit int             set audit trail level
+-auth file             select authorization file
+-br                    create root window with black background
++bs                    enable any backing store support
+-bs                    disable any backing store support
+-c                     turns off key-click
+c #                    key-click volume (0-100)
+-cc int                default color visual class
+-nocursor              disable the cursor
+-core                  generate core dump on fatal error
+-displayfd fd          file descriptor to write display number to when ready to connect
+-dpi int               screen resolution in dots per inch
+-dpms                  disables VESA DPMS monitor control
+-deferglyphs [none|all|16] defer loading of [no|all|16-bit] glyphs
+-f #                   bell base (0-100)
+-fc string             cursor font
+-fn string             default font name
+-fp string             default font path
+-help                  prints message with these options
++iglx                  Allow creating indirect GLX contexts
+-iglx                  Prohibit creating indirect GLX contexts (default)
+-I                     ignore all remaining arguments
+-ld int                limit data space to N Kb
+-lf int                limit number of open files to N
+-ls int                limit stack space to N Kb
+-nolock                disable the locking mechanism
+-nolisten string       don't listen on protocol
+-noreset               don't reset after last client exists
+-background [none]     create root window with no background
+-reset                 reset after last client exists
+-p #                   screen-saver pattern duration (minutes)
+-pn                    accept failure to listen on all ports
+-nopn                  reject failure to listen on all ports
+-r                     turns off auto-repeat
+r                      turns on auto-repeat 
+-render [default|mono|gray|color] set render color alloc policy
+-retro                 start with classic stipple and cursor
+-s #                   screen-saver timeout (minutes)
+-seat string           seat to run on
+-t #                   default pointer threshold (pixels/t)
+-terminate             terminate at server reset
+-to #                  connection time out
+-tst                   disable testing extensions
+ttyxx                  server started from init on /dev/ttyxx
+v                      video blanking for screen-saver
+-v                     screen-saver without video blanking
+-wm                    WhenMapped default backing-store
+-wr                    create root window with white background
+-maxbigreqsize         set maximal bigrequest size 
++xinerama              Enable XINERAMA extension
+-xinerama              Disable XINERAMA extension
+-dumbSched             Disable smart scheduling, enable old behavior
+-schedInterval int     Set scheduler interval in msec
+-sigstop               Enable SIGSTOP based startup
++extension name        Enable extension
+-extension name        Disable extension
+-query host-name       contact named host for XDMCP
+-broadcast             broadcast for XDMCP
+-multicast [addr [hops]] IPv6 multicast for XDMCP
+-indirect host-name    contact named host for indirect XDMCP
+-port port-num         UDP port number to send messages to
+-from local-address    specify the local address to connect from
+-once                  Terminate server after one session
+-class display-class   specify display class to send in manage
+-cookie xdm-auth-bits  specify the magic cookie for XDMCP
+-displayID display-id  manufacturer display ID for request
+[+-]accessx [ timeout [ timeout_mask [ feedback [ options_mask] ] ] ]
+                       enable/disable accessx key sequences
+-ardelay               set XKB autorepeat delay
+-arinterval            set XKB autorepeat interval
+-screen scrn WxHxD     set screen's width, height, depth
+-pixdepths list-of-int support given pixmap depths
++/-render		   turn on/off RENDER extension support(default on)
+-linebias n            adjust thin line pixelization
+-blackpixel n          pixel value for black
+-whitepixel n          pixel value for white
+-fbdir directory       put framebuffers in mmap'ed files in directory
+-shmem                 put framebuffers in shared memory
+2018-06-25 09:24:15 [easyprocess] DEBUG: param: "['xauth', '-h']" 
+2018-06-25 09:24:15 [easyprocess] DEBUG: command: ['xauth', '-h']
+2018-06-25 09:24:15 [easyprocess] DEBUG: joined command: xauth -h
+2018-06-25 09:24:15 [easyprocess] DEBUG: process was started (pid=32750)
+2018-06-25 09:24:15 [easyprocess] DEBUG: process has ended
+2018-06-25 09:24:15 [easyprocess] DEBUG: return code=1
+2018-06-25 09:24:15 [easyprocess] DEBUG: stdout=
+2018-06-25 09:24:15 [easyprocess] DEBUG: stderr=usage:  xauth [-options ...] [command arg ...]
+
+where options include:
+    -f authfilename                name of authority file to use
+    -v                             turn on extra messages
+    -q                             turn off extra messages
+    -i                             ignore locks on authority file
+    -b                             break locks on authority file
+    -V                             show version number of xauth
+
+and commands have the following syntax:
+
+    add dpyname protoname hexkey   add entry
+    exit                           save changes and exit program
+    extract filename dpyname...    extract entries into file
+    help [topic]                   print help
+    info                           print information about entries
+    list [dpyname...]              list entries
+    merge filename...              merge entries from files
+    nextract filename dpyname...   numerically extract entries
+    nlist [dpyname...]             numerically list entries
+    nmerge filename...             numerically merge entries
+    quit                           abort changes and exit program
+    remove dpyname...              remove entries
+    source filename                read commands from file
+    version                        show version number of xauth
+    ?                              list available commands
+    generate dpyname protoname [options]  use server to generate entry
+    options are:
+      timeout n    authorization expiration time in seconds
+      trusted      clients using this entry are trusted
+      untrusted    clients using this entry are untrusted
+      group n      clients using this entry belong to application group n
+      data hexkey  auth protocol specific data needed to generate the entry
+
+
+A dash may be used with the "merge" and "source" to read from the
+standard input.  Commands beginning with "n" use numeric format.
+
+2018-06-25 09:24:15 [easyprocess] DEBUG: param: "['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '800x600x24', ':1008']" 
+2018-06-25 09:24:15 [easyprocess] DEBUG: command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '800x600x24', ':1008']
+2018-06-25 09:24:15 [easyprocess] DEBUG: joined command: Xvfb -br -nolisten tcp -screen 0 800x600x24 :1008
+2018-06-25 09:24:15 [easyprocess] DEBUG: param: "['xauth', '-h']" 
+2018-06-25 09:24:15 [easyprocess] DEBUG: command: ['xauth', '-h']
+2018-06-25 09:24:15 [easyprocess] DEBUG: joined command: xauth -h
+2018-06-25 09:24:15 [easyprocess] DEBUG: process was started (pid=32751)
+2018-06-25 09:24:15 [easyprocess] DEBUG: process has ended
+2018-06-25 09:24:15 [easyprocess] DEBUG: return code=1
+2018-06-25 09:24:15 [easyprocess] DEBUG: stdout=
+2018-06-25 09:24:15 [easyprocess] DEBUG: stderr=usage:  xauth [-options ...] [command arg ...]
+
+where options include:
+    -f authfilename                name of authority file to use
+    -v                             turn on extra messages
+    -q                             turn off extra messages
+    -i                             ignore locks on authority file
+    -b                             break locks on authority file
+    -V                             show version number of xauth
+
+and commands have the following syntax:
+
+    add dpyname protoname hexkey   add entry
+    exit                           save changes and exit program
+    extract filename dpyname...    extract entries into file
+    help [topic]                   print help
+    info                           print information about entries
+    list [dpyname...]              list entries
+    merge filename...              merge entries from files
+    nextract filename dpyname...   numerically extract entries
+    nlist [dpyname...]             numerically list entries
+    nmerge filename...             numerically merge entries
+    quit                           abort changes and exit program
+    remove dpyname...              remove entries
+    source filename                read commands from file
+    version                        show version number of xauth
+    ?                              list available commands
+    generate dpyname protoname [options]  use server to generate entry
+    options are:
+      timeout n    authorization expiration time in seconds
+      trusted      clients using this entry are trusted
+      untrusted    clients using this entry are untrusted
+      group n      clients using this entry belong to application group n
+      data hexkey  auth protocol specific data needed to generate the entry
+
+
+A dash may be used with the "merge" and "source" to read from the
+standard input.  Commands beginning with "n" use numeric format.
+
+2018-06-25 09:24:15 [easyprocess] DEBUG: param: "['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '800x600x24', ':1009']" 
+2018-06-25 09:24:15 [easyprocess] DEBUG: command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '800x600x24', ':1009']
+2018-06-25 09:24:15 [easyprocess] DEBUG: joined command: Xvfb -br -nolisten tcp -screen 0 800x600x24 :1009
+2018-06-25 09:24:15 [easyprocess] DEBUG: process was started (pid=32752)
+2018-06-25 09:24:15 [pyvirtualdisplay.abstractdisplay] DEBUG: DISPLAY=:1009
+2018-06-25 09:24:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session {"capabilities": {"alwaysMatch": {"acceptInsecureCerts": true, "browserName": "firefox", "moz:firefoxOptions": {"binary": "/usr/bin/firefox", "args": ["-headless"]}}, "firstMatch": [{}]}, "desiredCapabilities": {"acceptInsecureCerts": true, "browserName": "firefox", "moz:firefoxOptions": {"binary": "/usr/bin/firefox", "args": ["-headless"]}, "marionette": true}}
+2018-06-25 09:24:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/url {"url": "https://www.google.fr/search?q=hotel+villard&num=5"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/source {}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/elements {"using": "css selector", "value": ".g"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/element/2fa8e83d-f707-4744-98b7-c35a1ff6e6de/element {"using": "css selector", "id": "2fa8e83d-f707-4744-98b7-c35a1ff6e6de", "value": "a"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/execute/sync {"args": [{"element-6066-11e4-a52e-4f735466cecf": "51d11d29-a712-448f-976d-a46909d601ae", "ELEMENT": "51d11d29-a712-448f-976d-a46909d601ae"}, "href"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/element/d134b129-5cfa-4943-925e-e4e24d723831/element {"using": "css selector", "id": "d134b129-5cfa-4943-925e-e4e24d723831", "value": "a"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/execute/sync {"args": [{"element-6066-11e4-a52e-4f735466cecf": "32a3544b-3687-457f-9b8f-9df5906b19cc", "ELEMENT": "32a3544b-3687-457f-9b8f-9df5906b19cc"}, "href"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/element/b9a0e58b-8477-4b61-b667-c2c26d89133b/element {"using": "css selector", "id": "b9a0e58b-8477-4b61-b667-c2c26d89133b", "value": "a"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/execute/sync {"args": [{"element-6066-11e4-a52e-4f735466cecf": "1b2a27c0-ba51-4f86-9821-b3a082137df3", "ELEMENT": "1b2a27c0-ba51-4f86-9821-b3a082137df3"}, "href"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/element/5354cf71-9c49-4f01-8c76-25d15c2bef55/element {"using": "css selector", "id": "5354cf71-9c49-4f01-8c76-25d15c2bef55", "value": "a"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/execute/sync {"args": [{"element-6066-11e4-a52e-4f735466cecf": "f323775c-d1e2-4246-885e-e62f6908a3a3", "ELEMENT": "f323775c-d1e2-4246-885e-e62f6908a3a3"}, "href"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/element/23164f4e-b469-4d93-b027-ae30142afe60/element {"using": "css selector", "id": "23164f4e-b469-4d93-b027-ae30142afe60", "value": "a"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/execute/sync {"args": [{"element-6066-11e4-a52e-4f735466cecf": "b7baffb3-b957-46c6-ab46-1dabde05eada", "ELEMENT": "b7baffb3-b957-46c6-ab46-1dabde05eada"}, "href"], "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"async autofocus autoplay checked compact complete controls declare defaultchecked defaultselected defer disabled draggable ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref noresize noshade novalidate nowrap open paused pubdate readonly required reversed scoped seamless seeking selected spellcheck truespeed willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:39677/session/91b012b9-c3a6-448e-b3eb-df84f75ae604/window {}
+2018-06-25 09:24:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-06-25 09:24:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-25 09:24:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-25 09:24:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-25 09:24:27 [scrapy.core.engine] INFO: Spider opened
+2018-06-25 09:24:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-25 09:24:27 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.lemonde.fr/robots.txt> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.lemonde.fr/> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.booking.com/robots.txt> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.lemonde.fr/>
+{'h1': ['crise des migrants un minisommet pour depassionner un debat qui frise l hysterie',
+        'videos',
+        'edition abonnes',
+        'coupe du monde',
+        'les decodeurs',
+        'services',
+        'international',
+        'politique',
+        'societe',
+        'exclusivites lecteurs',
+        'pixels',
+        'm le mag',
+        'a la une des sites du groupe le monde',
+        'grands formats',
+        'contenus partenaires',
+        'economie',
+        'planete',
+        'culture',
+        'campus',
+        'sciences',
+        'afrique',
+        'idees',
+        'argent placements',
+        'guides d achat',
+        'smart cities',
+        'chef simon',
+        'services'],
+ 'h2': ['presidentielle en turquie erdogan reelu des le premier tour l opposition conteste',
+        '29',
+        'internet la bataille du cable ne fait que commencer',
+        'la gazette de la coupe du monde kane l olive et le coq',
+        'la premiere campagne de mesure des pesticides dans l air demarre en france',
+        '6',
+        'internet la bataille du cable ne fait que commencer',
+        'la gazette de la coupe du monde kane l olive et le coq',
+        'evasion fiscale l epilogue des panama papers revele par une nouvelle fuite de donnees',
+        'presidentielle en turquie erdogan reelu des le premier tour l opposition conteste',
+        '29',
+        'le rassemblement national nouveau front mais vieilles methodes',
+        'soutien scolaire videosurveillance le plan banlieue de valerie pecresse',
+        '5',
+        'decouvrez la newsletter pixels',
+        'comment des parlementaires veulent inscrire la neutralite du net dans la constitution',
+        '18',
+        'eviter les pieges a touristes a paris le carnet d adresses du monde',
+        'visuel interactif',
+        '7',
+        'croisieres d exploration',
+        'le systeme coravin nouvel outil de predilection des professionnels du vin',
+        'forger aujourd hui les competences de demain',
+        'petrole melodrames et luxe viennois dans les coulisses de l opaque opep',
+        'en france quatre cancers sur dix pourraient etre evites',
+        '5',
+        'menaces sur le patrimoine architectural du xxe siecle',
+        'bac kit de survie pour l epreuve de sciences de la vie et de la terre',
+        'ou etait votre ville au temps des dinosaures et autres infos scientifiques',
+        'post de blog',
+        'en ethiopie et au zimbabwe les reformateurs pris pour cible',
+        'comment proteger son enfant handicape en assurant une transmission equitable',
+        'quel iphone choisir entre l iphone 8 le 8 plus le 7 le 7 plus le 6s le 6s plus et le se',
+        'les francais sont peu convaincus par les objets connectes de la maison',
+        'pate a crepe'],
+ 'h3': ['en france quatre cancers sur dix pourraient etre evites',
+        '5',
+        'comment la droite recupere les intellectuels de gauche',
+        '22',
+        'en visite officielle en chine edouard philippe veut continuer le travail de macron',
+        'dix membres de la mouvance ultradroite arretes a travers la france',
+        'corse le dirigeant nationaliste jeanguy talamoni refuse de rencontrer edouard philippe',
+        '24',
+        'quiz avezvous le niveau bac en sciences de la vie et de la terre',
+        'madagascar rattrapee par ses vieux demons',
+        '7',
+        'nigeria 86 fermiers tues lors de violences intercommunautaires dans le centre du pays',
+        'coupe du monde 2018 qui est qualifie qui ne l est pas qui peut encore l etre',
+        'deux camps pour accueillir les migrants aux etatsunis',
+        'festival montpellier danse akram khan sur la corde raide',
+        'le rassemblement national nouveau front mais vieilles methodes',
+        'grand prix de f1 en france un retour reussi malgre quelques couacs',
+        'les jeunes artistes se revelent sur instagram',
+        'goelette scientifique tara journal de bord ndeg 2 les defis d une navigation scientifique propre',
+        'le festival de paris du jazz et mccartney notre selection musicale',
+        'en continu',
+        'les plus partages',
+        'suiveznous',
+        'le journal date du 24 juin',
+        'le rassemblement national nouveau front mais vieilles methodes',
+        'mariegeorge buffet  il faut imperativement reguler le football',
+        'comment la droite recupere les intellectuels de gauche',
+        'madagascar rattrapee par ses vieux demons',
+        'villes americaines offrent jobs desesperement',
+        'mariechristine labourdette  il nous faut reincarner les grands monuments',
+        'histoire d un livre retour sur l affaire ouologuem',
+        'a die trente ans de lutte pour l hopital et sa petite maternite',
+        'big browser le mondefr surveille le web pour vous',
+        'l actu en patates le blog de martin vidberg'],
+ 'h4': [],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['le president de la commission europeenne jeanclaude juncker et la chanceliere allemande angela merkel a bruxelles le 24 juin',
+         'les partisans de recep tayyip erdogan fetent la victoire de leur candidat a l election presidentielle a ankara le 24 juin',
+         'installation d un cable sousmarin entre quiberon et belleileenmer morbihan en 2015',
+         'un supporteur colombien le 24 juin a kazan',
+         'epandage de pesticides a guntur inde en octobre 2017',
+         'le tabac reste le principal fauteur evitable de cancers representant 20 des cas tous sexes confondus',
+         'pour que la captation s opere il faut qu il y ait des passages litteraires a convertir en slogans conservateurs',
+         'le president chinois xi jinping et le premier ministre francais edouard philippe le 25 juin a pekin',
+         'les interpellations dans la nuit du samedi 23 a dimanche 24 juin ont eu lieu dans toute la france photo d illustration',
+         'le president de l assemblee de corse jeanguy talamoni le 23 mai a bastia',
+         'ce quiz en sept questions vous aidera a vous rememorer les elementscles du programme de sciences de la vie et de la terre de terminale s',
+         'le president malgache hery rajaonarimampianina gauche et le premier ministre christian ntsay a antananarivo le 11 juin 2018',
+         'entoure de rouge l etat du plateau en proie a des violences intercommunautaires',
+         'kylian mbappe et les bleus ont valide leur qualification',
+         'une famille d immigrants arrive a rio grande valley au texas le 23 juin',
+         'akram khan met fin a sa carriere d interprete avec son solo xenos au festival montpellier danse les 26 et 27 juin',
+         'la presidente du desormais rassemblement national marine le pen le 1er juin pres de lyon',
+         'kimi raikkonen ferrari termine 3e du grand prix de france du 24 juin',
+         'd apres une etude d artsy 515 des collectionneurs ont achete des oeuvres d artistes decouverts sur instagram',
+         'francois thil et nils haentjens mettent le filet manta a l eau qui permet de filtrer des microplastiques a la surface de l eau',
+         'affiche du festival jazz et musique improvisee en franchecomte',
+         'decouvrez l edition abonnes',
+         'voiture d occasion',
+         'voiture d occasion',
+         'voiture d occasion',
+         'voiture de collection',
+         'pour feter nos 200 000 abonnes sur youtube nous vous avons demande de poser toutes les questions que pouviez avoir sur le service video du monde voici nos reponses',
+         'gaz lacrymogene l arme chimique qui pose question',
+         'selon les sondages le candidat du parti republicain du peuple muharrem ince devrait se qualifier pour le second tour de l election presidentielle',
+         'installation d un cable sousmarin entre quiberon et belleileenmer morbihan en 2015',
+         'la presidente du desormais rassemblement national marine le pen le 1er juin pres de lyon',
+         'neymar apres la victoire du bresil face au costarica le 22 juin a saintpetersbourg',
+         'pour que la captation s opere il faut qu il y ait des passages litteraires a convertir en slogans conservateurs',
+         'le president malgache hery rajaonarimampianina gauche et le premier ministre christian ntsay a antananarivo le 11 juin 2018',
+         'la penurie de maind oeuvre concerne des domaines aussi divers que la sante l education le commerce les loisirs ou la construction',
+         'mariechristine labourdette a ete nommee en mars presidente de la cite de l architecture et du patrimoine a paris abritee par le palais de chaillot',
+         'yambo ouologuem pose avec son roman qui vient d emporter le prix renaudot en novembre 1968',
+         'derriere cette lutte on a des visages des gens qui sont nes ici explique jeanlouis darriere membre du collectif de defense de l hopital qui s est lance pour defi de retrouver le maximum de personnes nees a la maternite de die pour leur tirer le portrait des centaines de cliches ont deja ete recuperes sur un total de quelque 4 000 naissances',
+         'un supporteur colombien le 24 juin a kazan',
+         'jimmy durmaz croule sous les insultes racistes depuis sa faute le 23 juin',
+         'kylian mbappe et les bleus ont valide leur qualification',
+         'les senegalais ont ete rejoints en toute fin de match',
+         'une piste de deguisement pour le prochain halloween',
+         'radamel falcao a inscrit son premier but en coupe du monde',
+         'le selectionneur senegalais aliou cisse au spartak stadium a moscou le 19 juin 2018',
+         'harry kane a pris la tete du classement des buteurs',
+         'philippe tournon ici lors d une conference de presse a istra a integre le staff des bleus pour la premiere fois a l euro 1984',
+         'des supporteurs anglais avant le match face au panama',
+         '12 million de nouveaux documents issus du cabinet panameen mossack fonseca ont ete transmis par une source anonyme au quotidien allemand suddeutsche zeitung',
+         'greffe du tribunal de commerce de paris',
+         'le palais de l elysee',
+         'une femme et ses enfants dans le camp pour migrants et refugies de grandesynthe nord en octobre 2016',
+         'ce quiz en sept questions vous aidera a vous rememorer les elementscles du programme de sciences de la vie et de la terre de terminale s',
+         'appartement 3 pieces de 65 m2 a paris 16 dans le paris 16 75116',
+         'appartement 2 pieces de 48 m2 a paris 14 dans le paris 14 75014',
+         'appartement 2 pieces de 47 m2 a paris 15 dans le paris 15 75015',
+         'les partisans de recep tayyip erdogan fetent la victoire de leur candidat a l election presidentielle a ankara le 24 juin',
+         'le president de la commission europeenne jeanclaude juncker et la chanceliere allemande angela merkel a bruxelles le 24 juin',
+         'les services de secours apres l attaque visant le president emmerson mnangagwa a bulawayo zimbabwe le 23 juin',
+         'a londres lors de la manifestation antibrexit le 23 juin',
+         'vaclav havel a prague le 19 decembre 1989',
+         'manifestation contre la mise en liberte provisoire des cinq hommes condamnes pour agression sexuelle  a pampelune le 22 juin',
+         'le president chinois xi jinping et le premier ministre francais edouard philippe le 25 juin a pekin',
+         'la presidente du desormais rassemblement national marine le pen le 1er juin pres de lyon',
+         'emmanuel macron lors de son discours a la conference des eveques de france au college des bernardins a paris le 9 avril',
+         'emmanuel macron et nicolas hulot en viste au cap frehel le 20 juin',
+         'patrick bernasconi president du conseil economique social et environnemental cese qui va se transformer en chambre de la societe civile',
+         'les elus du comite du syndicat autolib  velib  metropole ont vote jeudi la resiliation du contrat les liant au groupe bollore',
+         'la centrale nucleaire de fessenheim hautrhin en exploitation commerciale depuis 1978',
+         'a la frontiere entre la suisse et la france a perly le 6 juin 2014',
+         'valerie pecresse a droite le 20 mars a bagneux hautsdeseine',
+         'le college saintjoseph du village de 3 200 habitants a saintambroix gard attire les enfants des villages voisins',
+         'au lycee parc de vilgenis a massy essonne',
+         'amina les prenoms ont ete modifies 18 ans et son fils sekou le 18 mai',
+         'lors d une manifestation pour ali ziri en 2017 a paris',
+         'le tabac reste le principal fauteur evitable de cancers representant 20 des cas tous sexes confondus',
+         'donnees personnelles droit d acces a internet une vingtaine de deputes et senateurs proposent l adoption du charte du numerique lors de la revision constitutionnelle',
+         'l abonnement propose a 499 dollars est teste depuis janvier sur quelques chaines youtube et depuis 2017 sur youtube gaming',
+         'le parrot anafi',
+         'installation d un cable sousmarin entre quiberon et belleileenmer morbihan en 2015',
+         'les atouts de la fibre ont rendu les cables essentiels a l internet mondial a bord du navire cablier renedescartes de france telecom marine en 2012',
+         'google qui possede youtube ou netflix qui representent respectivement 18 et 14 du trafic internet en france selon l autorite de regulation des communications electroniques et des postes ne remunerent pas les operateurs pour transporter ce trafic jusqu a l utilisateur final',
+         'le musee du louvre a paris',
+         'apple homepod google home amazon echo enceintes connectees siri alexa google assistant comparatif meilleure',
+         'francois pinault a new york le 10 mai',
+         'le nouveau president du club de football de fenerbahce ali koc au centre au ulker stadium a istanbul lors de son election le 5 juin 2018',
+         'les lasagnes d aubergines',
+         'en 2013 laure prouvost remporte le prestigieux turner prize',
+         'diego maradona au milieu des defenseurs anglais',
+         '23 mars 2018 match de football amical entre la tunisie et l iran en vue de la preparation a la coupe du monde de football en russie en juin 2018 match au stade de rades banlieue sud de tunis avec pres de 4000 spectateurs et sous une pluie intensive la tunisie remporte le match 1 a 0',
+         'le ministre saoudien du petrole khalid alfalih lors de reunion de l opep a vienne le 22 juin',
+         'jyrki katainen vicepresident de la commission europeenne',
+         'la marionnette de l ancien presentateur du jt de tf1 patrick poivre d arvor a ete le visage des guignols',
+         'assemblage d un satellite galileo a breme en allemagne en fevrier 2016',
+         'donnees personnelles droit d acces a internet une vingtaine de deputes et senateurs proposent l adoption du charte du numerique lors de la revision constitutionnelle',
+         'a l usine de broughton dans le nordest du paysdegalles en decembre 2016',
+         'l objectif est de conquerir un lectorat age de 8 a 12 ans',
+         'la cour supreme des etatsunis a washington',
+         'le president argentin mauricio macri le 21 juin',
+         'le tabac reste le principal fauteur evitable de cancers representant 20 des cas tous sexes confondus',
+         'epandage de pesticides a guntur inde en octobre 2017',
+         'francois thil et nils haentjens mettent le filet manta a l eau qui permet de filtrer des microplastiques a la surface de l eau',
+         'bidons de desherbant roundup produit par la societe monsanto dans une grande surface de glendale californie le 19 juin',
+         'des bouteilles de roundup a glendale californie le 19 juin',
+         'une femme portant un masque antiviande lors d une manifestation organisee par l association l214 le 10 juin 2017 a paris',
+         'vincent bollore et anne hidalgo le 8 octobre 2014 lors de l inauguration d un nouveau modele d autolib',
+         'signee par alfred henry la tour de la caisse d epargne a toulon var avant sa transformation',
+         'beyonce au centre dans le clip de apeshit tourne au musee du louvre',
+         'arnaud rebotini a paris en 2012',
+         'la nouvelle creation de george benjamin lessons in love and violence lors de sa premiere a londres',
+         'l edition 2014 du hellfest',
+         'epreuve du baccalaureat',
+         'lors des epreuves du bac 2018 le 18 juin a versailles yvelines',
+         'devant les resultats du bac le 5 juillet 2017',
+         'calculatrice fond blanc campus maths',
+         'bac 2018 svt conseils de prof pour le jour j les bons profs',
+         'adn',
+         'lilliad la bibliotheque universitaire bu de l universite de lille',
+         'le lycee henriiv a paris',
+         'ce quiz en sept questions vous aidera a vous rememorer les elementscles du programme de sciences de la vie et de la terre de terminale s',
+         'la terre il y a 220 millions d annees',
+         'la surface consacree a la science et accessible au public est passee de 11 000 m2 a la fin des annees 1980 a 7 000 m2 aujourd hui la facade du palais de la decouverte a paris en mai 2017',
+         'au bord du lac des pises dans les cevennes',
+         'vessie en jaune prostate en orange testicules en violet et penis en bleu imagerie par resonance magnetique irm',
+         'le tabac reste le principal fauteur evitable de cancers representant 20 des cas tous sexes confondus',
+         'this picture taken on august 31 2014 shows the new asteroid explorer hayabusa2 during the space probe s unveiling for the press by jaxa at japan aerospace exploration agency jaxa facility in sagamihara suburban tokyo jaxa will launch the hayabusa2 later this year to bring back samples of the targeted astroid 1999 ju3 afp photo jiji press japan out afp photo jiji press jiji press',
+         'un papillon de nuit bogong agrotis infusa en nouvellegalles du sud australie',
+         'squelette degage dans le cimetiere medieval d atlit en israel',
+         'les services de secours apres l attaque visant le president emmerson mnangagwa a bulawayo zimbabwe le 23 juin',
+         'le president erythreen issayas afeworki a khartoum au soudan en juin 2015',
+         'le president malgache hery rajaonarimampianina gauche et le premier ministre christian ntsay a antananarivo le 11 juin 2018',
+         'sur la route de ras lanouf en libye en 2011',
+         'un village abandonne dans la region de l adamaoua dans le nord du cameroun en juin 2018',
+         'une personne en situation de handicap qui n a pas la capacite d exercer une activite professionnelle peut beneficier d allocations',
+         'nathan blecharczyk cofondateur et responsable de la strategie d airbnb',
+         'les dettes relatives a la residence principale sont deductibles a concurrence de leur montant total sans pouvoir exceder la valeur imposable de la residence principale soit 70 de sa valeur venale reelle photo rue a versailles',
+         'rolex est la recherche la plus frequente des internautes francais qui participent a des encheres en ligne',
+         'la moindre mobilite des proprietaires reduirait la fluidite du parc de logements et creerait une tension sur le marche du logement susceptible de compliquer la recherche d emploi des chomeurs',
+         'une selection de bracelets connectes',
+         'une selection de machines a jus',
+         'selon protelec 15 des sondes envisagent une maison a haute technologie',
+         'vincent bollore et anne hidalgo le 8 octobre 2014 lors de l inauguration d un nouveau modele d autolib',
+         'les elus du comite du syndicat autolib  velib  metropole ont vote jeudi la resiliation du contrat les liant au groupe bollore',
+         'operation de promotion pour autolib a paris le 29 novembre 2012',
+         'la decision de stopper le service d automobiles partagees pourrait etre prise jeudi 21 juin',
+         'installation d un cable sousmarin entre quiberon et belleileenmer morbihan en 2015',
+         'nathan blecharczyk cofondateur et responsable de la strategie d airbnb',
+         'un bluebus a l usine d erguegaberic finistere en octobre 2017',
+         'les structures de gardens by the bay a singapour',
+         'pate a crepe',
+         'recette pate a crepe',
+         'rouelle de porc',
+         'recette de nouvel an',
+         'soupe a l oignon',
+         'appartement 9 pieces de 330 m2 a paris 07 dans le paris 07 75007',
+         'appartement 3 pieces de 94 m2 a paris 14 dans le paris 14 75014',
+         'appartement 5 pieces de 144 m2 a paris 14 dans le paris 14 75014',
+         'jouez sur lemondefr'],
+ 'itemsURL': ['www lemonde fr'],
+ 'position': 0,
+ 'relevance': 2,
+ 'strong': ['partenaires le monde',
+            'le monde evenements',
+            'boutique le monde',
+            'le mondefr',
+            'voiture de collection',
+            'rechercher un modele',
+            'donald trump ou la cruaute cynique',
+            'en iran on nous a laissees entrer au stade',
+            'les syriens en quete de justice',
+            'coree du nord quand les masses paradent pour kim',
+            'arturo escobar pourfendeur du developpement',
+            'un projet europeen pour une civilisation europeenne',
+            'chute finale',
+            'reforme de la sncf 6 avec les usagers du parisrouenparis 2 et 3052018',
+            'une exprise de guerre de marion marechalle pen rejoint le cnip',
+            'avoir un enfant un droit pour tous',
+            'inass la fillette de l a10 les ombres juridiques de l enquete',
+            'le bataclan un lieu de memoire',
+            'la realpolitique papale ne date pas d hier',
+            'patrick bernasconi  le cese est a l aube d un enorme changement',
+            'daniele sallenave  l identitarisme est la maladie du xxie siecle',
+            'plongee iconoclaste dans le monde merveilleux de la mobilite du futur',
+            'le vin de montmartre j ai vu j ai bu j en veux plus',
+            'le bac approche les tensions montent quelques conseils pour les contenir',
+            'ils trouvent des lingots d or dans leur jardin',
+            'donald trump ouvre des centres d internement pour des bebes separes de leurs parents',
+            'les pratiques fiscales dommageables decryptees',
+            'un tourisme responsable pour preserver l ocean et proteger le climat',
+            'non les loups hybrides ne sont pas nombreux en france',
+            'au mans les etudiants de l itemm inventent les instruments de musique de demain',
+            'le poncif dans tous ses etats',
+            'entretien avec florian pellissier episode 4 l acceleration des particules',
+            '18 minutes et 8 secondes d amour helena almeida',
+            'monsieur macron accordez asile et protection a un jeune blogueur mauritanien brise',
+            'en afrique un aveuglement collectif face a une realite terrifiante',
+            'le maroc fait tous les efforts possibles pour attirer le nigeria dans son camp',
+            'en tunisie la bataille des moeurs sera tout aussi rude que celle des lois',
+            'centrafrique  l acquittement de jeanpierre bemba est un choc pour les victimes et un echec pour la cpi',
+            'donald trump ouvre des centres d internement pour des bebes separes de leurs parents',
+            'une annee au lycee',
+            'cent bulles et un match',
+            'je te fais un dessin',
+            'mondanites et fumisteries',
+            'buffet froid',
+            'les rubriques du mondefr',
+            'les services du monde',
+            'sur le web',
+            'les sites du groupe',
+            'partenaires le monde',
+            'suiveznous',
+            'index actualites'],
+ 'text': ['reunis dimanche a bruxelles les representants de seize pays europeens n ont pas adopte de conclusion commune mais ont fait part de discussions positives',
+          'les autorites electorales turques ont indique tot lundi que m erdogan avait obtenu la majorite absolue des suffrages exprimes au premier tour',
+          'la dependance au numerique et a son reseau physique de cables et de centres de donnees s accroit afin d assurer leur independance les majors du secteur investissent dans ces infrastructures',
+          'en russie harry kane a vu triple et la pologne a pris la porte mais le mondial c est aussi des blagues vaseuses et des journalistes recadres',
+          'le glyphosate et le chlordecone font partie des 90 substances qui seront recherchees pour mieux connaitre l exposition de la population',
+          'la dependance au numerique et a son reseau physique de cables et de centres de donnees s accroit afin d assurer leur independance les majors du secteur investissent dans ces infrastructures',
+          'en russie harry kane a vu triple et la pologne a pris la porte mais le mondial c est aussi des blagues vaseuses et des journalistes recadres',
+          'voir toutes les rubriques',
+          'des documents issus du cabinet panameen mossack fosseca permettent de retracer la panique qui a saisi clients et intermediaires apres la publication de l enquete en avril 2016',
+          'voir toutes les rubriques',
+          'les autorites electorales turques ont indique tot lundi que m erdogan avait obtenu la majorite absolue des suffrages exprimes au premier tour',
+          'les blogs',
+          'les debats',
+          'voir toutes les rubriques',
+          'marine le pen ne supporte toujours pas la critique et peine a federer en interne comme en externe',
+          'les blogs',
+          'voir toutes les rubriques',
+          'la presidente lr de la region iledefrance a presente jeudi des mesures en partie deja votees en 2016',
+          'les blogs',
+          'les debats',
+          'voir toutes les rubriques',
+          'chaque semaine retrouvez l essentiel de l actualite techno en vous inscrivant a la newsletter pixels',
+          'donnees personnelles acces a internet deputes et senateurs proposent l adoption d une charte du numerique lors de la revision constitutionnelle',
+          'voir toutes les rubriques',
+          'pour visiter une grande ville sans s y perdre ni tomber dans les pieges a touristes la redaction du monde vous propose ses 20 adresses phares premiere destination de notre serie paris',
+          'les blogs',
+          'voir toutes les rubriques',
+          'contenus realises par les equipes de m publicite la regie publicitaire du monde la redaction n a pas participe a leur realisation',
+          'concu et propose par',
+          'partez a la decouverte des endroits les plus recules du globe des fjords norvegiens sous le soleil de minuit jusqu aux rivages de l arctique et au territoire demesure de l antarctique peuple de baleines et d icebergs',
+          'concu et propose par',
+          'au moment de toucher les menages francais coravin a su tirer son epingle du jeu la tache s annoncait plus ardue face a des professionnels du vin parfois reticent aux innovations mais force est de constater que la marque americaine a releve le defi',
+          'concu et propose par',
+          'avec la revolution numerique en cours de nouveaux metiers apparaissent tous les jours growth hacker pirate de croissance ux designer en charge de l experience utilisateur data scientist expert en donnees massives ou digital evangelist evangeliste technologique ces emplois nes de la revolution numerique sont tres recherches',
+          'publicite',
+          'l accord trouve vendredi a vienne pourrait correspondre a une augmentation d un million de barils par jour a partir de juillet',
+          'les blogs',
+          'voir toutes les rubriques',
+          'en 2015 142 000 cas etaient attribuables a des facteurs de risque lies au mode de vie ou a l environnement au premier rang desquels le tabagisme et l alcool',
+          'les blogs',
+          'voir toutes les rubriques',
+          'a l instar de la maison du peuple de clichylagarenne dans les hautsdeseine des constructions remarquables sont en danger bousculees par des investisseurs prives',
+          'les blogs',
+          'voir toutes les rubriques',
+          'quiz sujets probables liens utiles conseils et methodologie tout ce qu il faut pour reussir la derniere epreuve du bac s 2018 les sciences de la vie et de la terre lundi 25 juin',
+          'voir toutes les rubriques',
+          'au menu tempete geante sur mars un singe inconnu dans une tombe chinoise antique pourquoi certains buveurs deviennent alcooliques et d autres pas etc',
+          'voir toutes les rubriques',
+          'deux explosions ont eu lieu quasiment au meme moment samedi a addisabeba en ethiopie et a bulawayo au zimbabwe visant le premier ministre ethiopien et le president zimbabween',
+          'les debats',
+          'voir toutes les rubriques',
+          'la marchandisation a l extreme du football met en danger son existence alerte l ancienne ministre de la jeunesse et des sports dans une tribune au monde',
+          'dans un entretien au monde l academicienne explique comment le republicanisme neoconservateur et le catholicisme traditionaliste s allient pour defendre une europe blanche et chretienne',
+          'george orwell albert camus simone weil pour gagner la bataille des idees les conservateurs n hesitent plus a piocher chez les penseurs progessistes detaille nicolas truong chef du service debats au monde',
+          'il existe des solutions pour proteger un enfant en situation de handicap si ses parents viennent a deceder explique au monde valerie bentz responsable des etudes patrimoniales chez uff',
+          'les blogs',
+          'voir toutes les rubriques',
+          'comparatif wirecutter vous hesitez entre acheter le dernier iphone ou un modele d une generation precedente ce test vous aide a choisir celui qu il vous faut',
+          'dans une enquete de l institut sociovision 15 des sondes seulement ont declare vouloir une habitation bardee de haute technologie',
+          'voir toutes les rubriques',
+          'pour des crepes neutres une recette de crepes pour la chandeleur et tout le reste de l annee pour une crepes party la pate a crepes peut se preparer a l avance puisqu il faut la laisser reposer pour des crepes sucrees vous pourrez ajouter 50 g de sucre a la pate',
+          'pour des crepes neutres une recette de crepes pour la chandeleur et tout le',
+          'recettes de noel et conseils pour les fetes de fin d annee',
+          'gourmande et reconfortante un grand classique de la cuisine economique',
+          'plus de recettes',
+          'avec sytadin',
+          'profitez du journal ou et quand vous voulez abonnements papier offres 100 numeriques sur web et tablette',
+          'journal d information en ligne le mondefr offre a ses visiteurs un    panorama complet de l actualite decouvrez chaque jour toute l info en    direct de la politique a l economie en passant par le sport et la    meteo sur le mondefr le site de news leader de la presse francaise    en ligne'],
+ 'title': ['le mondefr actualites et infos en france et dans le monde'],
+ 'url': 'https://www.lemonde.fr/'}
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.tripadvisor.fr/robots.txt> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://fr.hotels.com/robots.txt> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.tripadvisor.fr/Hotels-g196719-Villard_de_Lans_Isere_Auvergne_Rhone_Alpes-Hotels.html> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.villarddelans.com/robots.txt> (referer: None)
+2018-06-25 09:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://fr.hotels.com/de539175/hotels-villard-de-lans-france/> (referer: None)
+2018-06-25 09:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.tripadvisor.fr/Hotels-g196719-Villard_de_Lans_Isere_Auvergne_Rhone_Alpes-Hotels.html>
+{'h1': ['meilleurs hotels a villarddelans prix et avis pour les hebergements a villarddelans france',
+        'hotels a villarddelans'],
+ 'h2': [],
+ 'h3': [],
+ 'h4': [],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['tripadvisor', 'tripadvisor', 'tripadvisor'],
+ 'itemsURL': ['www tripadvisor fr',
+              'Hotels g196719 Villard de Lans Isere Auvergne Rhone Alpes Hotels html'],
+ 'position': 2,
+ 'relevance': 1,
+ 'strong': ['envie d economies'],
+ 'text': ['tripadvisor utilise des cookies pour ameliorer votre navigation sur le site',
+          'ou modifiez vos',
+          'en continuant vous donnez votre accord quant a notre utilisation des cookies'],
+ 'title': ['les 10 meilleurs hotels a villarddelans en 2018 des 53EUR tripadvisor'],
+ 'url': 'https://www.tripadvisor.fr/Hotels-g196719-Villard_de_Lans_Isere_Auvergne_Rhone_Alpes-Hotels.html'}
+2018-06-25 09:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://fr.hotels.com/de539175/hotels-villard-de-lans-france/>
+{'h1': ['hotels a villarddelans'],
+ 'h2': ['cherchez des hotels a villarddelans',
+        'meilleurs hotels de villarddelans',
+        'choisissez l une des options suivantes pour devoiler les prix secrets et payer moins cher sur une selection d hotels',
+        'destinations phares',
+        'assistance faq',
+        'reserve aux fournisseurs affilies et medias',
+        'conditions d utilisation et politique de confidentialite',
+        'laissez un commentaire',
+        'qui sommesnous',
+        'ajoutez votre etablissement',
+        'emplois'],
+ 'h3': ['email', 'appli hotelscom', 'hotelscomtm rewards'],
+ 'h4': [],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['revenir a la page d accueil hotelscom',
+         'hotelscomtm rewards',
+         'hotelscomtm rewards',
+         'villarddelans france',
+         'villarddelans france',
+         'hotelscomtm rewards'],
+ 'itemsURL': ['fr hotels com', 'de539175', 'hotels villard de lans france'],
+ 'position': 5,
+ 'relevance': 2,
+ 'strong': [],
+ 'text': ['cumulez 10 nuits recevezen 1 gratuite',
+          'devoilez des prix secrets sur un choix d hotels',
+          'en continuant sur ce site vous acceptez l utilisation de cookies d analyse et de publicite',
+          'inscrivezvous pour recevoir nos dernieres offres',
+          'telechargez reservez profitez',
+          'inscrivezvous cumulez 10 nuits recevezen 1 gratuite',
+          'c 2018 hotelscom lp tous droits reserves',
+          'le nom hotelscom et le logo de hotelscom sont des marques commerciales ou des marques deposees de hotelscom lp aux etatsunis etou dans d autres pays toutes les autres marques deposees appartiennent a leurs proprietaires respectifs'],
+ 'title': ['top 10 des hotels a villarddelans reservez sur hotelscom'],
+ 'url': 'https://fr.hotels.com/de539175/hotels-villard-de-lans-france/'}
+2018-06-25 09:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.hotel-villard.com/robots.txt> (referer: None)
+2018-06-25 09:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.booking.com/city/fr/villard-de-lans.fr.html> (referer: None)
+2018-06-25 09:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.booking.com/city/fr/villard-de-lans.fr.html>
+{'h1': ['les 20 meilleurs hotels a villarddelans',
+        'villarddelans',
+        'des commentaires authentiques de veritables clients'],
+ 'h2': ['recherchez des hotels et d autres hebergements a villarddelans',
+        'le mois dernier plus de',
+        '1 million',
+        'de personnes ont recommande bookingcom a leurs proches',
+        'hotels et autres hebergements a villarddelans',
+        'gagnez du temps et de l argent',
+        'villarddelans les meilleurs hotels',
+        'comment ca marche'],
+ 'h3': ['selon 1 468 avis de clients',
+        'ce que les clients ont pense de villarddelans',
+        'les clients ont adore ces hotels a villarddelans',
+        'hotels populaires a villarddelans',
+        'ces hotels pourraient vous interesser',
+        'a villarddelans et ses alentours',
+        'tout commence par une reservation',
+        'puis un sejour',
+        'et enfin un commentaire',
+        'authentification a 2 facteurs'],
+ 'h4': ['langues les plus utilisees par les personnes habitant en france',
+        'toutes les langues',
+        'vous recherchez des offres pour villarddelans consultez les tarifs et les hebergements pour',
+        'hotel le galaxie',
+        'hotel 2 etoiles',
+        'hotel christiania',
+        'hotel 3 etoiles',
+        'cet etablissement fait partie de notre programme partenaires preferes il fournit un excellent service ainsi qu un tres bon rapport qualiteprix et dispose de commentaires elogieux de clients bookingcom il est possible que cet etablissement participe au programme en payant une commission un peu plus elevee a bookingcom',
+        'hotel les playes',
+        'hotel 3 etoiles',
+        'hotel du centre',
+        'hotel 1 etoile',
+        'le dauphin',
+        'hotel 3 etoiles',
+        'vacanceole residence la croix margot',
+        'cet etablissement fait partie de notre programme partenaires preferes il fournit un excellent service ainsi qu un tres bon rapport qualiteprix et dispose de commentaires elogieux de clients bookingcom il est possible que cet etablissement participe au programme en payant une commission un peu plus elevee a bookingcom',
+        'molina colombani',
+        'petite ville charmante',
+        'anonyme',
+        'de passage dans ce village pour 3 jours de ski alpin on a',
+        'anonyme',
+        'sejour court mais bien suffisant pour des familles qui ne',
+        'dominique',
+        'jolie station village vraie avec un coeur de village et des',
+        'sylvie',
+        'disons que c est un village qui a su conserver son ame',
+        'anne',
+        'la piscine est tres agreable bien chauffee avec vue sur les',
+        'le grand veymont',
+        'gite le rocher',
+        'best western grand hotel de paris',
+        'logis auberge des montauds',
+        'vacanceole residence la croix margot',
+        'economisez jusqu a 50 a villarddelans',
+        'super votre inscription est confirmee',
+        'indiquez votre adresse email et nous vous renverrons votre confirmation',
+        'nous avons renvoye les confirmations demandees a cette adresse',
+        'nous sommes desoles nous ne sommes pas parvenus a vous renvoyer les confirmations demandees',
+        'indiquez votre adresse email et nous vous renverrons votre confirmation',
+        'nous avons renvoye les confirmations demandees a cette adresse',
+        'nous sommes desoles nous ne sommes pas parvenus a vous renvoyer les confirmations demandees'],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['bookingcom reservations d hotels en ligne',
+         'chargement',
+         'francais',
+         'hotel le galaxie villarddelans',
+         'hotel christiania villarddelans',
+         'hotel les playes villarddelans',
+         'hotel du centre villarddelans',
+         'le dauphin villarddelans',
+         'vacanceole residence la croix margot villarddelans',
+         'bookingcom',
+         'priceline',
+         'kayak',
+         'agoda',
+         'rentalcars',
+         'opentable'],
+ 'itemsURL': ['www booking com', 'city', 'fr', 'villard de lans fr html'],
+ 'position': 3,
+ 'relevance': 1,
+ 'strong': ['montagne',
+            'nature',
+            'tranquillite',
+            'villarddelans',
+            '1 million',
+            'bookingcom business',
+            'a villarddelans',
+            '514 clients habitant en france',
+            'EUR 95',
+            'EUR 111',
+            'EUR 125',
+            'vrais clients'],
+ 'text': ['chargement',
+          'choisissez votre langue preferee nous parlons francais et 42 autres langues',
+          'les visiteurs adorent',
+          'villarddelans',
+          'l accueil etait tres sympathique les chambres sont ergonomiques avec une vue magnifique sur la vallee les sdb sont fraichement refaites et tres fonctionnelles le rapport qualite prix est vraiment',
+          'l accueil etait tres sympathique les chambres sont ergonomiques avec une vue magnifique sur la vallee les sdb sont fraichement refaites et tres fonctionnelles le rapport qualite prix est vraiment',
+          'villarddelans',
+          'un mention particuliere au personnel de l hotel et plus particulierement du restaurantbravo on est tres bien recu les deux piscines sont tres agreable chauffees et tres proprechambre et petit',
+          'un mention particuliere au personnel de l hotel et plus particulierement du restaurantbravo on est tres bien recu les deux piscines sont tres agreable chauffees et tres proprechambre et petit',
+          'villarddelans',
+          'l accueil personnel tres disponible et a l ecoute proposant d aider pour visite ou pratique d un sport chambre tres calme et agreable et tres propre excellente literie hotel tres bien',
+          'l accueil personnel tres disponible et a l ecoute proposant d aider pour visite ou pratique d un sport chambre tres calme et agreable et tres propre excellente literie hotel tres bien',
+          'villarddelans',
+          'personnel tres sympa notre chambre avec terrasse vue sur la montagne tres bon petit dejeuner',
+          'personnel tres sympa notre chambre avec terrasse vue sur la montagne tres bon petit dejeuner',
+          'villarddelans',
+          'l hotel bien place personnel tres agreable petit dejeune copieux',
+          'l hotel bien place personnel tres agreable petit dejeune copieux',
+          'villarddelans',
+          'tres bien tout confort qualite prix propre rien a dire je le conseillerais aupres de mon entourage c est juste la meteo qui n etait pas au rdv',
+          'tres bien tout confort qualite prix propre rien a dire je le conseillerais aupres de mon entourage c est juste la meteo qui n etait pas au rdv',
+          'inscrivezvous et nous vous enverrons les meilleures offres',
+          'veuillez saisir une adresse email valide',
+          'nous sommes desoles mais une erreur s est produite',
+          'vous etes abonnee votre email de bienvenue sera bientot dans votre boite de reception',
+          'les hotels et autres hebergements uniques les mieux notes a villarddelans selon 1 983 commentaires rediges par de vrais clients',
+          'sur 24 hotels a villarddelans',
+          'sur 24 hotels a villarddelans',
+          'sur 24 hotels a villarddelans',
+          'petite ville charmanteon y trouve tout cinemapiscinesaunacreperieboutiques etcet la possibilite d avceder au domaine de ski en navette gratuitey compris piste de ski de fond et raquettesle top',
+          'de passage dans ce village pour 3 jours de ski alpin on a pu profiter d une etapes d un rallye automobile historique le casino pour un moment de detente avec moderation et un bon restaurant le soir et le reste du temps sur les pistesagreable moment',
+          'sejour court mais bien suffisant pour des familles qui ne font pas ski manque d activites pour les plus jeunes manque d informations pour les pistes de luges se n est mentionner nul part qu il faut une location d un casque d une luge et d un forfait de ski',
+          'jolie station village vraie avec un coeur de village et des habitants charmants en hiver pour se rendre sur les pistes navettes gratuites c est parfait en ete de tres jolies promenades de tous les niveaux',
+          'disons que c est un village qui a su conserver son ame tous les gens du village se mettent en quatre pour vous etre agreable nous avons apprecie la navette gratuite offerte par la mairie de villard pour aller a correncon nous conseillons a ceux qui nous lisent de dejeuner a correncon aux deux moucherolles c est un logis de france ou le chef vous surprendra avec son veloute de legumes anciens tout simplement delicieux les prix sont abordables et la table merite le detours nous vous recommandons de visiter la maison du patrimoine sur la place centrale et plus particulierement le 3eme et dernier etage vous y decouvrirez des objets anciens parfaitement conserves avec en diffusion en toile de fond de bruits de vaches et de poules',
+          'la piscine est tres agreable bien chauffee avec vue sur les montagnes a la fois des ballades ensoleillees avec une vue degagee et d autres dans les boisun bemol l interdiction de marcher en raquettes sur les bords des pistes de ski de fond et le manque d indication apres avoir pris la piste supposee etre pour les raquettesen bref si vous ne skiez pas tirez vous on se sent exclus voire indesirables alors qu a autrans meaudre les itineraires en raquettes sont prevus et fleches',
+          'l accueill appartement et les equipements tres confortablela terrassesitue en plein centre villetoute la famille etait raviele soleil etait de la partie parfait pour la randonnee',
+          'appartement neuf tres spacieux lumineux tres bien equipe amenagements de grande qualite nous avons pu disposer de l appartement des midi',
+          'c est un tres beau batiment on ne construit plus ce type d hotel l emplacement est ideal et il est facile de se garer',
+          'la gentillesse du personnel la proprete de notre chambre l  hotel au milieu de nulle part juste parfait le petit dej juste parfait et copieux encore merci et a l annee prochaine',
+          'appartements spacieux propre',
+          'tout etait parfait de l accueil au repas en passant par le confort et la proprete',
+          'tres bien tout confortqualite prix propre rien a dire je le conseillerais aupres de mon entourage c est juste la meteo qui n etait pas au rdv',
+          'l hotel bien place personnel tres agreable petit dejeune copieux',
+          'un mention particuliere au personnel de l hotel et plus particulierement du restaurantbravo on est tres bien recu les deux piscines sont tres agreable chauffees et tres propre',
+          'comme toujours accueil chaleureux tres bon restaurant chambre bien decoree le top',
+          'personnel tres sympa notre chambre avec terrasse vue sur la montagne tres bon petit dejeuner',
+          'l accueil personnel tres disponible et a l ecoute proposant d aider pour visite ou pratique d un sport chambre tres calme et agreable et tres propre excellente literie hotel tres bien place',
+          'le calme et l accueilla disponibilite du personnella qualite du service restaurant',
+          'petitdejeuner impeccable super spa qui est gratuit si vous reservez plus de 3 nuits tres bon restaurant chambre incroyable avec une vue magnifique accueil sympathique et tres pro',
+          'l accueil etait tres sympathique les chambres sont ergonomiques avec une vue magnifique sur la vallee les sdb sont fraichement refaites et tres fonctionnelles le rapport qualite prix est vraiment bien',
+          'accueil tres sympathique et excellent rapport qualite prixrepasexcellent et confitures maison au petit dejeunermerci a magdalena pour les bons conseis de randonnees',
+          'l accueil parfait le calme la situation et les excellents repas',
+          'parfait proximite des pistes bonne exposition plein sud et petit balcon nous reviendrons l annee prochaine',
+          'le cadre  parking l  ensemble du lieu et sa situation mon 4deg sejour pour le velo vert festival le plus reussi cote hebergement',
+          'bel accueil appartement neuf et moderne idealement situe au centre de la ville',
+          'bookingcom fait partie de booking holdings inc le leader mondial des voyages en ligne et services associes',
+          'nous proposons plus de 70 millions de commentaires sur des etablissements tous rediges par de',
+          '1',
+          'la seule facon de laisser un commentaire est d effectuer une reservation ainsi nous sommes surs que nos commentaires ont ete rediges par de veritables clients ayant sejourne dans l etablissement',
+          '2',
+          'pendant leur sejour les clients evaluent l insonorisation de la chambre l accueil du personnel de l etablissement et bien plus encore',
+          '3',
+          'a leur retour les clients nous racontent leur experience nous verifions l authenticite de chaque commentaire et supprimons les grossieretes avant de les afficher sur notre site',
+          'si vous avez effectue une reservation sur notre site et souhaitez laisser un commentaire veuillez d abord vous connecter',
+          'du',
+          'au',
+          'accedez par email a des offres exclusives reservees aux membres',
+          'seulement pour une duree limitee',
+          'veuillez saisir une adresse email valide',
+          'nous sommes desoles mais une erreur s est produite',
+          'en vous connectant a un compte vous acceptez nos',
+          'et notre',
+          'mot de passe oublie',
+          'veuillez indiquer votre adresse email et nous vous enverrons un lien pour reinitialiser votre mot de passe',
+          'email envoye',
+          'veuillez consulter votre boite de reception et cliquer sur le lien pour reinitialiser votre mot de passe',
+          'mot de passe oublie',
+          'veuillez indiquer votre adresse email et nous vous enverrons un lien pour reinitialiser votre mot de passe',
+          'email envoye',
+          'veuillez consulter votre boite de reception et cliquer sur le lien pour reinitialiser votre mot de passe',
+          'en creant un compte vous acceptez nos',
+          'et notre',
+          'voir toutes les reservations',
+          'aucune inscription necessaire'],
+ 'title': ['les 20 meilleurs hotels a villarddelans bookingcom offres d hotels'],
+ 'url': 'https://www.booking.com/city/fr/villard-de-lans.fr.html'}
+2018-06-25 09:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.villarddelans.com/ete/hotels-villard-de-lans-vercors-alpes.html> (referer: None)
+2018-06-25 09:24:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.villarddelans.com/ete/hotels-villard-de-lans-vercors-alpes.html>
+{'h1': ['hotels a villard de lans et correncon'],
+ 'h2': ['best western grand hotel de paris spa',
+        'auberge les 4 montagnes',
+        'hotel le centre',
+        'hotel le dauphin',
+        'hotel le galaxie',
+        'hotel la roseraie',
+        'hotel les playes',
+        'hotel a la ferme du bois barbu',
+        'hotel le christiania',
+        'auberge les montauds',
+        'hotel et spa les clarines',
+        'hotel la taiga vercors evasion'],
+ 'h3': [],
+ 'h4': [],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['3 etoiles',
+         'grand hotel de paris',
+         'non classe nn 2009',
+         'facade',
+         '1 etoile',
+         'hotel le centre villard de lans',
+         '3 etoiles',
+         'entree ete 2017',
+         '2 etoiles',
+         'vue d ete',
+         '3 etoiles',
+         'la roseraie ete',
+         '3 etoiles',
+         'hotel les playes',
+         '2 etoiles',
+         'a la ferme de bois barbu villard de lans',
+         '3 etoiles',
+         'hotel le christiania villard de lans',
+         '2 etoiles',
+         'auberge des montauds',
+         '3 etoiles',
+         'hotel des clarines ete',
+         '2 etoiles',
+         'hotel la taiga',
+         'chargement en cours',
+         'cloudvillard38163835',
+         'webcam23643836',
+         'pictodomainealtitude240424443837',
+         'map23663838',
+         'couvertureespaceloisirsete20182699',
+         'escalade1705401',
+         '83189sitrahot374306copiedegalaxieete640x4801706582',
+         'affiche echec 2018',
+         'affichevmfvertical1703591',
+         'feu d artifice',
+         'affiche 2018',
+         'salon du bien etre',
+         'la france en courant',
+         'fete des arts 2018',
+         'mickael bieche',
+         'affiche 2018',
+         'festival musiques en vercors',
+         'logooffice53436',
+         'qualite tourisme',
+         'inspiration vercors',
+         'parcduvercors',
+         'familleplus',
+         'facebook1763',
+         'twitter1764',
+         'youtube1765',
+         '1398179196instagram189311895',
+         '1398179209google189411896'],
+ 'itemsURL': ['www villarddelans com',
+              'ete',
+              'hotels villard de lans vercors alpes html'],
+ 'position': 1,
+ 'relevance': 1,
+ 'strong': ['1'],
+ 'text': [],
+ 'title': ['hotels a villard de lans hotel dans le vercors'],
+ 'url': 'http://www.villarddelans.com/ete/hotels-villard-de-lans-vercors-alpes.html'}
+2018-06-25 09:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.hotel-villard.com/> (referer: None)
+2018-06-25 09:24:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.hotel-villard.com/>
+{'h1': ['hotel restaurant le christiania',
+        'hotel christiania a villard de lans',
+        'les chambres de l hotel christiania',
+        'le restaurant le tetras',
+        'piscine solarium salle de fitness',
+        'decouvrez villard de lans ses alentours'],
+ 'h2': ['au coeur de villard',
+        'de lans',
+        'le charme d un hotel 3 etoiles',
+        'invitation a la detente',
+        'decouvrez des saveurs locales',
+        'pour un sejour inoubliable',
+        'pendant vos vacances et weekends'],
+ 'h3': [],
+ 'h4': [],
+ 'h5': [],
+ 'h6': [],
+ 'img': ['logo hotel christinia villard de lans',
+         'logo hotel christinia villard de lans',
+         'loader',
+         'francais',
+         'anglais',
+         'logo christinia hotel villard de lans',
+         'logo villard de lans',
+         'logo vercors aventure',
+         'logo villard correncon',
+         'francais',
+         'anglais',
+         'c eliophot'],
+ 'itemsURL': ['www hotel villard com'],
+ 'position': 4,
+ 'relevance': 2,
+ 'strong': ['meilleur tarif garanti'],
+ 'text': ['au coeur de villard de lans l hotel le christiania vous accueille dans l ambiance chaleureuse de son chalet et vous offre un cadre idyllique face aux montagnes du vercors il vous propose 22 chambres de charme avec restaurant barlounge deux piscines terrasses et jardins orientes plein sud extremement bien situe il vous permet de pratiquer de nombreuses activites en ete le majestueux decor du parc naturel regional du vercors vous invite a tous les loisirs golf tennis randonnee vtt parapente speleo en hiver sensations et emotions sont au rendezvous sur les pistes du domaine alpin de villardcorrencon ou sur celles de l espace nordique du hautvercors en toute saison le bonheur commence ici le temps d un weekend ou d un sejour un peu plus long vous profiterez de longs moments de quietude et de ressourcement dans notre hotel',
+          'avec leur decoration soignee et personnalisee les chambres de l hotel le christiania sont de veritables invitations a la detente et a la reverie chaleureuses et lumineuses elles disposent d une incroyable vue sur les montagnes du vercors ou sur le joli village de villard de lans en couple ou en famille elles vous offrent tout le confort necessaire pour passer un sejour ideal le matin vous pourrez y prendre votre petitdejeuner continental ou bien descendre dans la salle du restaurant pour profiter du copieux buffet'],
+ 'title': ['hotel villard de lans hotel le christiania a villarddelans'],
+ 'url': 'http://www.hotel-villard.com/'}
+2018-06-25 09:24:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-25 09:24:30 [scrapy.extensions.feedexport] INFO: Stored jsonlines feed (6 items) in: /home/seoecho/seo-echo.com/src/SEOecho/CrawlGooglePythonBundle/bin/searchEngine/output/unsortedOutput.jsonl
+2018-06-25 09:24:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2836,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 499404,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 25, 7, 24, 30, 934327),
+ 'item_scraped_count': 6,
+ 'log_count/DEBUG': 81,
+ 'log_count/INFO': 8,
+ 'memusage/max': 53006336,
+ 'memusage/startup': 53006336,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2018, 6, 25, 7, 24, 27, 975795)}
+2018-06-25 09:24:30 [scrapy.core.engine] INFO: Spider closed (finished)

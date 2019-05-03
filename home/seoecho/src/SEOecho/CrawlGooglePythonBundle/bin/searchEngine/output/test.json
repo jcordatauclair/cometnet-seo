@@ -1,0 +1,223 @@
+{
+    "txPerf": "0,56",
+    "posPrevue": {
+        "protocole": "http",
+        "url": "\/\/com-et-net.com\/agence-de-strategie-digitale-grenoble-campagne-emailing",
+        "ponderation": "0,066960",
+        "indiceConf": "0,428571;"
+    },
+    "predicteurs": [{
+        "terme": "creation",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "grenoble",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "bw",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "ref",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "web",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "agence",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "site",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "comsatisfr",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "strategiedigitalegrenoble",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "emalaya",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "oxiwiz",
+        "balise": "h4",
+        "pourcentageSimilitude": 16.666666666667,
+        "balisesPageCible": [{
+            "terme": "Le r\u00e9f\u00e9rencement d\u0027un site internet",
+            "pourcentageSimilitude": 16.666666666667
+        }, {
+            "terme": "Cr\u00e9ation de contenu",
+            "pourcentageSimilitude": 16.666666666667
+        }]
+    }, {
+        "terme": "icone",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "le",
+        "balise": "strong",
+        "pourcentageSimilitude": 62.5,
+        "balisesPageCible": [{
+            "terme": "Webmarketing",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "L\u0027interaction, l\u0027\u00e9change, le dialogue sont au c\u0153ur des pr\u00e9occupations du webmarketing",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "Nous mettons \u00e0 votre disposition notre exp\u00e9rience et notre savoir faire en webmarketing",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "webmarketing",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "strat\u00e9gie digitale",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "experts en d\u00e9veloppement et en strat\u00e9gie marketing digitale",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "site internet",
+            "pourcentageSimilitude": 50
+        }, {
+            "terme": "visible et accessible",
+            "pourcentageSimilitude": 100
+        }]
+    }, {
+        "terme": "referencement",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "lyon",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "web",
+        "balise": "h4",
+        "pourcentageSimilitude": 33.333333333333,
+        "balisesPageCible": [{
+            "terme": "Le r\u00e9f\u00e9rencement d\u0027un site internet",
+            "pourcentageSimilitude": 33.333333333333
+        }, {
+            "terme": "Cr\u00e9ation de contenu",
+            "pourcentageSimilitude": 33.333333333333
+        }]
+    }, {
+        "terme": "de",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }, {
+        "terme": "a",
+        "balise": "strong",
+        "pourcentageSimilitude": 87.5,
+        "balisesPageCible": [{
+            "terme": "Webmarketing",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "L\u0027interaction, l\u0027\u00e9change, le dialogue sont au c\u0153ur des pr\u00e9occupations du webmarketing",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "Nous mettons \u00e0 votre disposition notre exp\u00e9rience et notre savoir faire en webmarketing",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "webmarketing",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "strat\u00e9gie digitale",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "experts en d\u00e9veloppement et en strat\u00e9gie marketing digitale",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "site internet",
+            "pourcentageSimilitude": 0
+        }, {
+            "terme": "visible et accessible",
+            "pourcentageSimilitude": 100
+        }]
+    }, {
+        "terme": "digital",
+        "balise": "strong",
+        "pourcentageSimilitude": 42.857142857143,
+        "balisesPageCible": [{
+            "terme": "Webmarketing",
+            "pourcentageSimilitude": 21.428571428571
+        }, {
+            "terme": "L\u0027interaction, l\u0027\u00e9change, le dialogue sont au c\u0153ur des pr\u00e9occupations du webmarketing",
+            "pourcentageSimilitude": 35.714285714286
+        }, {
+            "terme": "Nous mettons \u00e0 votre disposition notre exp\u00e9rience et notre savoir faire en webmarketing",
+            "pourcentageSimilitude": 28.571428571429
+        }, {
+            "terme": "webmarketing",
+            "pourcentageSimilitude": 21.428571428571
+        }, {
+            "terme": "strat\u00e9gie digitale",
+            "pourcentageSimilitude": 100
+        }, {
+            "terme": "experts en d\u00e9veloppement et en strat\u00e9gie marketing digitale",
+            "pourcentageSimilitude": 85.714285714286
+        }, {
+            "terme": "site internet",
+            "pourcentageSimilitude": 28.571428571429
+        }, {
+            "terme": "visible et accessible",
+            "pourcentageSimilitude": 21.428571428571
+        }]
+    }, {
+        "terme": "meilleures",
+        "balise": "strong",
+        "pourcentageSimilitude": 19.375,
+        "balisesPageCible": [{
+            "terme": "Webmarketing",
+            "pourcentageSimilitude": 15
+        }, {
+            "terme": "L\u0027interaction, l\u0027\u00e9change, le dialogue sont au c\u0153ur des pr\u00e9occupations du webmarketing",
+            "pourcentageSimilitude": 30
+        }, {
+            "terme": "Nous mettons \u00e0 votre disposition notre exp\u00e9rience et notre savoir faire en webmarketing",
+            "pourcentageSimilitude": 25
+        }, {
+            "terme": "webmarketing",
+            "pourcentageSimilitude": 15
+        }, {
+            "terme": "strat\u00e9gie digitale",
+            "pourcentageSimilitude": 10
+        }, {
+            "terme": "experts en d\u00e9veloppement et en strat\u00e9gie marketing digitale",
+            "pourcentageSimilitude": 20
+        }, {
+            "terme": "site internet",
+            "pourcentageSimilitude": 20
+        }, {
+            "terme": "visible et accessible",
+            "pourcentageSimilitude": 20
+        }]
+    }, {
+        "terme": "logo",
+        "balise": "img",
+        "pourcentageSimilitude": 0,
+        "balisesPageCible": []
+    }]
+}

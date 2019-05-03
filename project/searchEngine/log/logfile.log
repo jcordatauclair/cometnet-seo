@@ -1,0 +1,395 @@
+
+
+ ╔═════════════════════╗ 
+ ║ Process Initialized ║ 
+ ╚═════════════════════╝ 
+
+
+▐ User URL : "http://com-et-net.com/"
+▐ 2 keywords : "photographer", "amateur"
+▐ 10 results requested
+▐ Relevance rank : 5
+
+
+
+
+ ╔══════════════════════════════╗ 
+ ║ Headless Firefox Initialized ║ 
+ ╚══════════════════════════════╝ 
+
+
+▐ GENERATING THE GOOGLE REQUEST...
+
+
+
+
+▐ SEARCHING FOR THE URLs...
+
+
+
+
+▐ WARNING : Google displays a google image link for this request (-1 result)
+
+
+
+
+▐ WARNING : Google deleted some URLs for this request (1)
+
+
+
+
+ ╔════════════════════════╗ 
+ ║ Extraction Initialized ║ 
+ ╚════════════════════════╝ 
+
+
+
+
+▐ PROCESSING... [https://fr.wikipedia.org/wiki/Amateur_Photographer]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://petapixel.com/2013/05/25/thoughts-on-amateur-and-professional-photography/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://digital-photography-school.com/what-defines-an-amateur-versus-a-professional-photographer/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.amateurphotographer.co.uk/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://com-et-net.com/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://expertphotography.com/5-levels-amateur-photographer-which-group-are-you-in/]
+
+
+
+
+▐ DONE
+
+
+
+
+ ╔═══════════════════════╗ 
+ ║ Extraction Successful ║ 
+ ╚═══════════════════════╝ 
+
+
+▐ SORTING THE OUTPUT...
+
+
+▐ GENERATING THE FINAL OUTPUT...
+
+
+▐ DONE
+
+
+▐ INFO : the path to the output is "searchEngine/output/output.json"
+▐        a logfile can be found at "log/logfile.log"
+
+
+ ╔════════════════╗ 
+ ║ Ending Process ║ 
+ ╚════════════════╝ 
+
+
+
+
+ ╔═════════════════════╗ 
+ ║ Process Initialized ║ 
+ ╚═════════════════════╝ 
+
+
+▐ User URL : "http://com-et-net.com/"
+▐ 3 keywords : "stratégie", "digitale", "grenoble"
+▐ 20 results requested
+▐ Relevance rank : 5
+
+
+
+
+ ╔══════════════════════════════╗ 
+ ║ Headless Firefox Initialized ║ 
+ ╚══════════════════════════════╝ 
+
+
+▐ GENERATING THE GOOGLE REQUEST...
+
+
+
+
+▐ SEARCHING FOR THE URLs...
+
+
+
+
+▐ WARNING : Google deleted some URLs for this request (1)
+
+
+
+
+ ╔════════════════════════╗ 
+ ║ Extraction Initialized ║ 
+ ╚════════════════════════╝ 
+
+
+
+
+▐ PROCESSING... [http://www.pixelcreo.fr/stategie-digitale-grenoble-competence-agence-web-grenoble-1.html]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://formations.univ-grenoble-alpes.fr/fr/catalogue/master-XB/droit-economie-gestion-DEG/master-marketing-vente-program-master-marketing-vente/parcours-marketing-digital-et-e-commerce-2e-annee-subprogram-parcours-marketing-digital-et-e-commerce-2e-annee/ue-strategies-de-la-marque-sur-le-web-ILC3XO0A/strategie-digitale-et-e-consommation-ILC3Z7TK.html]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://www.kreatys.com/strategie-digitale-webmarketing.php]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.sortlist.fr/hire/agence-strategie-digitale-grenoble]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://helloquence.com/agence/strategie-digitale]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.eolas.fr/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.grenoble-iae.fr/menu-principal/formations/alternance/m2-communication-marketing-digitale-en-alternance-46616.kjsp]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.kelformation.com/formation/formation-mastere+specialise+strategie+internet+et+management+du+web+a+grenoble-265780.htm]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.indeed.fr/Grenoble-(38)-Emplois-Strategie-Communication-Digitale]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.oxiwiz.fr/strategie-de-developpement-digital-complete-efficace/strategie-digitale-grenoble/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.lahautesociete.com/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://com-et-net.com/agence-de-strategie-digitale-grenoble-campagne-emailing]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://com-et-net.com/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.grenoble-em.com/mastere-specialise-strategie-digitale]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.mastersbooking.fr/grenoble-ecole-management-gem/mastere-specialise-strategie-digitale-0]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [http://agence-digitale-jourj.com/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.cegos.fr/formations-grenoble/webmarketing-communication-digitale-grenoble]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.emagister.fr/formation_mastere_specialise_strategie_digitale-ec2766980.htm]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://www.alcimia.com/notre-methode/]
+
+
+
+
+▐ DONE
+
+
+
+
+▐ PROCESSING... [https://creation-site-web-grenoble.fr/agence-digitale-grenoble/]
+
+
+
+
+▐ DONE
+
+
+
+
+ ╔═══════════════════════╗ 
+ ║ Extraction Successful ║ 
+ ╚═══════════════════════╝ 
+
+
+▐ SORTING THE OUTPUT...
+
+
+▐ GENERATING THE FINAL OUTPUT...
+
+
+▐ DONE
+
+
+▐ INFO : the path to the output is "searchEngine/output/output.json"
+▐        a logfile can be found at "log/logfile.log"
+
+
+ ╔════════════════╗ 
+ ║ Ending Process ║ 
+ ╚════════════════╝ 
+
+
