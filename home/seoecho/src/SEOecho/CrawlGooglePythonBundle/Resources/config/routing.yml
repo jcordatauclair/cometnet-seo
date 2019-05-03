@@ -1,3 +1,0 @@
-crawl_google_python_homepage:
-    path:     /crawlGooglePython
-    defaults: { _controller: CrawlGooglePythonBundle:Default:index }

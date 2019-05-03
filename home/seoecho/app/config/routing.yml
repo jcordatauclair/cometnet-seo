@@ -1,7 +1,0 @@
-echo_seo:
-    resource: "@echoSEOBundle/Resources/config/routing.yml"
-    prefix:   /
-
-crawl_google_python:
-    resource: "@CrawlGooglePythonBundle/Resources/config/routing.yml"
-    prefix:   /
