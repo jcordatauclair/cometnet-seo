@@ -46,13 +46,13 @@ The french version is available [here](report/fr_report.pdf).
 
 ## **Screenshots**
 
-Here is the home page where the user needs to enter the keywords:
+Here is the home page where the user needs to enter the keywords and the URL of his page:
 <p align="center">
   <img src="report/ecranAccueil.jpg">
 </p>
 
 
-And here is how the resulting web service looks like:
+And here is how the resulting web service page showing right after the process looks like:
 <p align="center">
   <img src="report/hautDePage.png">
 
