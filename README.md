@@ -8,7 +8,7 @@
 <i><h5 align="center">4th year internship</h5></i>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/project-professional-blueviolet.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/project-professional-pink.svg?style=flat-square">
   <img src="https://img.shields.io/badge/stability-unavailable-red.svg?style=flat-square">
   <img src="https://img.shields.io/badge/made_with-multiple_languages-lightgrey.svg?style=flat-square">
 </p>
