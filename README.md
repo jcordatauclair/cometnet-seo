@@ -66,7 +66,7 @@ And here is how the resulting web service page showing right after the process l
 This project is now owned by **[Com&Net](http://com-et-net.com/)**.
 
 <p align="center">
-  <img src="doc/logocometnet.png">
+  <img src="report/logocometnet.png">
 </p>
 
 The machine learning algorithms that have been used to provide this service were made in partnership with the **[UGA](https://www.univ-grenoble-alpes.fr/)**.
